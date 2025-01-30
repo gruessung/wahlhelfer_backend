@@ -1,0 +1,15 @@
+meta {
+  name: Get Session
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:8001/session/d2450be1-e544-4be1-b7db-ab1d6deec074
+  body: multipartForm
+  auth: none
+}
+
+body:multipart-form {
+  password: 0000000000
+}

@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "wahlhelfer.app",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

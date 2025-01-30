@@ -1,0 +1,18 @@
+meta {
+  name: Create Session
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8001/session/create
+  body: multipartForm
+  auth: none
+}
+
+body:multipart-form {
+  cnt_pages: 20
+  cnt_entries_per_page: 25
+  cnt_entries_total: 175
+  password: 0000000000
+}
