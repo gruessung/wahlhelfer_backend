@@ -24,3 +24,8 @@ Das Backend kannst du ganz einfach auf jeden beliebigen PHP Webhosting betreiben
 Passe dir die `.env` File nach deinem Belieben an:
 * DATABASE_URL
 * APP_ENV
+
+Datenbank anlegen:
+```
+bin/console doctrine:migrations:migrate
+```
